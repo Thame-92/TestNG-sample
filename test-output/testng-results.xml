@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-27T15:04:52Z" name="Suite" finished-at="2023-12-27T15:04:58Z" duration-ms="6553">
+    <groups>
+    </groups>
+    <test started-at="2023-12-27T15:04:52Z" name="Test" finished-at="2023-12-27T15:04:58Z" duration-ms="6553">
+      <class name="org.testing.ChromeBrowserTesting">
+        <test-method signature="BrowserLaunch(java.lang.String)[pri:1, instance:org.testing.ChromeBrowserTesting@505fc5a4]" started-at="2023-12-27T15:04:52Z" name="BrowserLaunch" finished-at="2023-12-27T15:04:53Z" duration-ms="1407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserLaunch -->
+        <test-method signature="UrlLaunch()[pri:2, instance:org.testing.ChromeBrowserTesting@505fc5a4]" started-at="2023-12-27T15:04:53Z" name="UrlLaunch" finished-at="2023-12-27T15:04:57Z" duration-ms="3670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UrlLaunch -->
+        <test-method signature="EnterCrendials(java.lang.String, java.lang.String)[pri:3, instance:org.testing.ChromeBrowserTesting@505fc5a4]" started-at="2023-12-27T15:04:57Z" name="EnterCrendials" finished-at="2023-12-27T15:04:57Z" duration-ms="505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thame]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Thame@1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterCrendials -->
+        <test-method signature="LoginButtonClick()[pri:4, instance:org.testing.ChromeBrowserTesting@505fc5a4]" started-at="2023-12-27T15:04:57Z" name="LoginButtonClick" finished-at="2023-12-27T15:04:58Z" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginButtonClick -->
+      </class> <!-- org.testing.ChromeBrowserTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
